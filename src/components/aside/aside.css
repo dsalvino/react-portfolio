@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#aside {
+    text-align: center;
+}
+
+.container {
+    padding: 1rem;
+    border: black 2px solid;
+    margin: 0.5rem 0 0.5rem 0;
+    border-radius: 5px;
+}
+
+.col > p {
+    font-weight: bolder;
+}
+
+.contact-container > p {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#contactInfo {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+#portfolio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

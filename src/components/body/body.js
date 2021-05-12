@@ -5,8 +5,10 @@ import Repos from '../repos/repos';
 const Body = () => {
     return (
         <div className="container-fluid">
-            <Aside />
-            <Repos />
+            <div className="row">
+                <Aside />
+                <Repos />
+            </div>
         </div>
     )
 }
