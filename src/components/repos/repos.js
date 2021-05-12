@@ -20,7 +20,7 @@ const Repos = () => {
     return (
         <div className="col-md-8">
             {repos.length ? (
-                        <div className="row row-cols-1 row-cols-md-3 g-4">
+                        <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
                         {repos.map(repo => {
                             return (
                                 <ListItem
