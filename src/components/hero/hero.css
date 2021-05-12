@@ -1,0 +1,18 @@
+#hero {
+    background-image: url(../../images/codingback.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.heroContainer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
