@@ -35,3 +35,15 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+#aside {
+    color: #BDBDBD;
+}
+
+.asideLink {
+    color: #BDBDBD;
+}
+
+ul {
+    padding: 0 !important;
+}

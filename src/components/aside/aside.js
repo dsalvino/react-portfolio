@@ -87,12 +87,12 @@ const Aside = () => {
             <div className="container contact-container">
                 <p>contact me</p>
                 <div id="contactInfo">
-                    <a href="mailto:denis.salvino23@gmail.com">Email</a>
-                    <a href="https://github.com/dsalvino">Github</a>
-                    <a href="https://https://www.linkedin.com/in/denis-salvino23/">LinkedIn</a>
-                    <a href="https://dsalvino.github.io/example_work_portfolio/">Portfolio</a>
+                    <a href="mailto:denis.salvino23@gmail.com" className="linkStyle asideLink">Email</a>
+                    <a href="https://github.com/dsalvino" className="linkStyle asideLink">Github</a>
+                    <a href="https://https://www.linkedin.com/in/denis-salvino23/" className="linkStyle asideLink">LinkedIn</a>
+                    <a href="https://dsalvino.github.io/example_work_portfolio/" className="linkStyle asideLink">Portfolio</a>
                 </div>
-                <a href="https://github.com/dsalvino" id="portfolio">Resume</a>
+                <a href="https://github.com/dsalvino" id="portfolio" className="linkStyle asideLink">Resume</a>
             </div>
         </div>
     )

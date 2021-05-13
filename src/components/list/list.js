@@ -10,7 +10,7 @@ export function ListItem(props) {
                         <h5 className="card-title">{props.name}</h5>
                         <h6 className="card-subtitle mb-2 text-muted">{props.full_name}</h6>
                         <p className="card-text">{props.description}</p>
-                        <a href={props.html_url} className="card-link text-decoration-none">GitHub Link</a>
+                        <a href={props.html_url} className="card-link linkStyle text-decoration-none">GitHub Link</a>
                     </div>
                 </div>
             </div>
